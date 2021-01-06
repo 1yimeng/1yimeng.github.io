@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(213, 248, 168);
+    color: rgb(80, 102, 56);
+    font-family: "Jost", monospace;
+    min-height: 100vh;
+}
