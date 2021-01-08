@@ -42,7 +42,7 @@ form button:hover{
 
 }
 nav{
-    height: 10vh;
+    height: 8vh;
     background:rgb(80, 102, 56)
 }
 
@@ -61,6 +61,9 @@ nav{
     text-decoration: none;
 }
 
+.nav-links li a:hover {
+    color:rgb(213, 248, 168);
+}
 @media screen and (max-width: 784px){
     .line {
         width: 30px;
