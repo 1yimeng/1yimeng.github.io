@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: URL(window.JPG);
+    background-image: URL(../window.JPG);
     background-size: cover;
     color:rgb(253, 252, 252);
     background-position: center;
