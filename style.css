@@ -14,14 +14,16 @@ body {
     font-family: "Jost", monospace;
     min-height: 100vh;
 }
-header {
-    font-size: 3.5rem;
+.titlepage {
+    font-size: 2rem;
     text-shadow: 2px 2px 5px grey;
     min-height: 75vh;
     display:flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
 }
+
 nav{
     height: 8vh;
 }
@@ -84,7 +86,7 @@ nav{
         pointer-events: all;
     }
 
-    header {
+    head {
         font-size: 2.5rem;
     }
 
