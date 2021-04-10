@@ -4,11 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background: #654ea3;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    /*background-image: URL(https://github.com/1yimeng/1yimeng.github.io/blob/master/window.JPG);
-    background-size: cover; */
+    background: white;  /* fallback for old browsers */
     color:rgb(253, 252, 252);
     background-position: center;
     font-family: "Jost", monospace;
@@ -16,16 +12,24 @@ body {
 }
 .titlepage {
     font-size: 2rem;
-    text-shadow: 2px 2px 5px grey;
     min-height: 75vh;
+    width: 30%;
     display:flex;
     flex-direction: column;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: flex-end;
     text-align: center;
+    color: black;
+    position: fixed;
+    left: 100px;
+    /* background-color: gray; */
 }
 
 nav{
     height: 8vh;
+    background-color:white;
+    position: sticky;
+    top: 0;
 }
 
 .nav-links {
@@ -36,11 +40,11 @@ nav{
     justify-content: space-around; /*evenly distribute horizontally*/
     align-items: center; /*evemly distribute vertically*/
     margin-left: auto; /*align to left*/
-    margin-right: auto;
+    margin-right: auto; 
 }
 
 .nav-links li a {
-    color: white;
+    color:black;
     text-decoration: none;
 }
 
@@ -48,11 +52,11 @@ nav{
     color:rgb(178, 247, 237);
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 700px){
     .line {
         width: 30px;
         height: 3px;
-        background: white;
+        background: black;
         margin: 5px;
     }
 
@@ -71,7 +75,7 @@ nav{
 
     .nav-links {
         position: fixed;
-        background: #654ea3;
+        background: gray;
         height: 100vh;
         width: 100%;
         flex-direction: column;
