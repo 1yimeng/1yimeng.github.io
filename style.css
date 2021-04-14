@@ -4,30 +4,31 @@
     box-sizing: border-box;
 }
 body {
-    background: white;  /* fallback for old browsers */
+    /* background: white;   */
     color:rgb(253, 252, 252);
     background-position: center;
     font-family: "Jost", monospace;
     min-height: 100vh;
+    background: url("img/shadow.jpeg") no-repeat center center fixed;
+    background-size: cover;
 }
 .titlepage {
-    font-size: 2rem;
+    font-size: 2.5rem;
     min-height: 75vh;
     width: 30%;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    text-align: center;
+    text-align: right;
     color: rgb(37, 37, 37);
     position: fixed;
     left: 100px;
-    /* background-color: gray; */
 }
 
 nav{
     height: 8vh;
-    background-color:white;
+    /* background-color:white; */
     position: sticky;
     top: 0;
 }
@@ -52,7 +53,7 @@ nav{
     color:rgb(88, 88, 88);
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 900px){
     .line {
         width: 30px;
         height: 3px;
@@ -102,5 +103,6 @@ nav{
         color: rgb(37, 37, 37);
         display: flex;
         align-items: center;
+        text-align: center;
     }
 }
