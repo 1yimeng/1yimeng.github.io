@@ -27,6 +27,25 @@ body {
 .head {
     left: 20%;
 }
+
+.intro {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.2rem;
+    min-height: 35vh;
+    width: 85vh;
+    left: 60%;
+    color: #050002;
+    position: absolute;
+    -webkit-transform: translate(+50%,+50%);
+    transform: translate(0%,+130%);
+    left: 50%;
+}
+
+.paragraph {
+    font-family: 'Noto Sans', sans-serif;
+    position: relative;
+}
+
 nav{
     height: 13vh;
     background-color:white;
@@ -116,7 +135,7 @@ nav{
     left: 0;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1500px) {
     .titlepage {
         font-size: 2rem;
         min-height: 70vh;
@@ -126,9 +145,16 @@ nav{
         align-items: center;
         text-align: center;
     }
+    .intro {
+        font-size: 1.1rem;
+        min-height: 35vh;
+        width: 40vh;
+        left: 68%;
+        text-align: center;
+    }
 }
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 1000px){
     .line {
         width: 30px;
         height: 3px;
@@ -171,7 +197,7 @@ nav{
         font-size: 2.5rem;
     }
 
-    .titlepage {
+    .titlepage, .intro {
         display: none;
     }
 }
