@@ -124,15 +124,16 @@ nav{
 
 .bottom {
     position: relative;
-    height: 10vh;
+    height: 14vh;
     top: 825px;
     color: black;
 }
 
 .copyright {
+    font-family: 'Noto Sans', sans-serif;
     position: absolute;
-    bottom: 0;
-    left: 0;
+    left: 50%;
+    top: 70%;
 }
 
 @media screen and (max-width:1500px) {
