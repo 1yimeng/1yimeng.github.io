@@ -122,18 +122,41 @@ nav{
     color: #7a7a7a;
 }
 
+span {
+    display: flex; /*horizontal*/
+    list-style: none; /*removing the dots for the unordered lists*/
+    width: 40%;
+    height: 40%;
+    justify-content: space-around; /*evenly distribute horizontally*/
+    align-items: center; /*evemly distribute vertically*/
+    margin-left: auto; /*align to left*/
+    margin-right: auto;
+    color: #91604c;
+    font-size: 1.3rem;  
+}
+
+i {
+    color: #91604c;
+}
+
+i:hover {
+    color: cadetblue;
+}
 .bottom {
     position: relative;
-    height: 14vh;
-    top: 825px;
+    height: 10vh;
+    top: 823.5px;
     color: black;
+    background-color:#91604c;
 }
 
 .copyright {
     font-family: 'Noto Sans', sans-serif;
     position: absolute;
-    left: 50%;
-    top: 70%;
+    align-self: auto;
+    justify-content: center;
+    top: 50%;
+    left: 40%;
 }
 
 @media screen and (max-width:1500px) {
