@@ -5,6 +5,13 @@
     scroll-behavior: smooth;
 }
 
+/* * {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+} */
+
+
 section {
     height: 89vh;
     scroll-snap-align: start;
@@ -29,8 +36,11 @@ section {
     top: 800px;
     color: black;
     background-color: #bce686;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
 }
-
 
 body {
     /* background: white;   */
@@ -44,12 +54,12 @@ body {
 .titlepage {
     font-size: 2.5rem;
     min-height: 67vh;
-    width: 40vh;
+    width: 20vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: left;
-    color: #050002;
+    color: #250c02;
     position: absolute;
     left: 60%;
 }
@@ -64,7 +74,7 @@ body {
     min-height: 35vh;
     width: 85vh;
     left: 60%;
-    color: #050002;
+    color: #250c02;
     position: absolute;
     -webkit-transform: translate(+50%,+50%);
     transform: translate(0%,+130%);
@@ -78,7 +88,6 @@ body {
 
 nav{
     height: 11vh;
-    background-color:white;
     position: sticky;
     top: 0;
     z-index: 12;
@@ -92,7 +101,7 @@ nav{
     justify-content: space-around; /*evenly distribute horizontally*/
     align-items: center; /*evemly distribute vertically*/
     margin-left: auto; /*align to left*/
-    margin-right: auto; 
+    margin-right: auto;
 }
 
 .nav-links li a {
@@ -142,7 +151,7 @@ nav{
     display: flex;
     top: 14%;
     justify-content: center;
-    color: rgb(7, 0, 0);
+    color: #462011;
 }
 
 .name {
@@ -175,9 +184,8 @@ i:hover {
 
 .copyright {
     font-family: 'Noto Sans', sans-serif;
-    position: relative;
-    top: 10%;
-    left: 45%;
+    width: auto;
+    color: #613b2c;
 }
 
 @media screen and (max-width:1500px) {
@@ -185,7 +193,6 @@ i:hover {
         font-size: 2rem;
         min-height: 70vh;
         width: 50%;
-        color: rgb(37, 37, 37);
         display: flex;
         align-items: center;
         text-align: center;
@@ -193,13 +200,13 @@ i:hover {
     .intro {
         font-size: 1.1rem;
         min-height: 35vh;
-        width: 40vh;
+        width: 30%;
         left: 68%;
         text-align: center;
     }
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 920px){
     .line {
         width: 30px;
         height: 3px;
@@ -222,7 +229,7 @@ i:hover {
 
     .nav-links {
         position: fixed;
-        background: gray;
+        background: rgb(205, 226, 170);
         height: 100vh;
         width: 100%;
         flex-direction: column;
@@ -244,5 +251,17 @@ i:hover {
 
     .titlepage, .intro {
         display: none;
+    }
+
+    .student {
+        font-size: 120%;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    .top-block {
+        width: 70vw;
+        left: 20%;
     }
 }
