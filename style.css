@@ -261,7 +261,16 @@ i:hover {
 
 @media screen and (max-width:450px) {
     .top-block {
-        width: 70%;
+        width: 65vw;
         left: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .student {
+        width: 75%;
+        height: 50vh;
     }
 }
