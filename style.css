@@ -259,9 +259,9 @@ i:hover {
 
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:450px) {
     .top-block {
-        width: 70vw;
+        width: 70%;
         left: 20%;
     }
 }
