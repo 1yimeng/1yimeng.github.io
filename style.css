@@ -230,7 +230,7 @@ i:hover {
     .nav-links {
         position: fixed;
         background: rgb(205, 226, 170);
-        height: 100vh;
+        height: 95vh;
         width: 100%;
         flex-direction: column;
         clip-path: circle(100px at 90% -10%);
