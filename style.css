@@ -24,7 +24,7 @@ section {
 }
 
 .project {
-    background-color: #8688e6;
+    background-color: #86a8e6;
 }
 
 .contact {
@@ -125,7 +125,7 @@ nav{
     background-color:#EDC7B7;
     position: absolute;
     z-index: 10;
-    height: 50vh;
+    height: 52vh;
     width: 40vh;
     left: 27%;
     top: 150px;
@@ -145,7 +145,7 @@ nav{
     font-size: 130%;
     position: relative;
     display: flex;
-    top: 14%;
+    top: 10%;
     justify-content: center;
     color: #462011;
 }
@@ -178,12 +178,57 @@ i:hover {
     color: cadetblue;
 }
 
-.copyright {
+.copyright, .quote {
     font-family: 'Noto Sans', sans-serif;
     width: auto;
     color: #613b2c;
 }
 
+.copyright {
+    position: relative;
+    top: 30px;
+}
+
+.col {
+    display: grid;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: 460px 220px;
+}
+
+.card {
+    width: 450px;
+    height: 275px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(img/1.png);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+.project-title {
+    font-family: 'Noto Sans', sans-serif;
+    color: #fff;
+    font-size: 2rem;
+    text-shadow: 0 0 20px #999;
+}
+
+.pdescription {
+    font-family: 'Noto Sans', sans-serif;
+    text-shadow: 0 0 15px #999;
+    font-size: 1rem;
+}
 @media screen and (max-width:1500px) {
     .titlepage {
         font-size: 2rem;
