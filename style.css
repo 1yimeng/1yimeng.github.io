@@ -24,7 +24,7 @@ section {
 }
 
 .project {
-    background-color: #86a8e6;
+    background-color: #6d995b;
 }
 
 .contact {
@@ -174,7 +174,7 @@ i {
     color: #91604c;
 }
 
-i:hover {
+i:not(#folder):hover {
     color: cadetblue;
 }
 
@@ -194,20 +194,20 @@ i:hover {
     height: 90vh;
     justify-content: center;
     align-items: center;
-    grid-template-columns: 500px 500px 500px;
+    grid-template-columns: 330px 330px 330px;
     grid-template-rows: 460px 220px;
 }
 
 .card {
-    width: 450px;
-    height: 275px;
+    width: 300px;
+    height: 320px;
     display: inline-block;
-    border-radius: 10px;
+    border-radius: 3px;
     padding: 15px 25px;
     box-sizing: border-box;
     cursor: pointer;
     margin: 10px 15px;
-    background-image: url(img/1.png);
+    background-color: #e7bba8;
     background-position: center;
     background-size: cover;
     transition: transform 0.5s;
@@ -220,7 +220,7 @@ i:hover {
 .project-title {
     font-family: 'Noto Sans', sans-serif;
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-shadow: 0 0 20px #999;
 }
 
@@ -229,6 +229,38 @@ i:hover {
     text-shadow: 0 0 15px #999;
     font-size: 1rem;
 }
+
+#folder{
+    font-size: 250%;
+    position: relative;
+    top: 20%;
+}
+
+#link, #github {
+    font-size: 180%;
+    position: relative;
+    left: 70%;
+}
+
+#github {
+    left: 40% !important;
+}
+
+#link:hover {
+    color: #318311 !important;
+}
+
+.pdescription, .project-title {
+    position: relative;
+    top: 20%;
+}
+
+.technology {
+    font-size: 90%;
+    position: relative;
+    top: 28%;
+}
+
 @media screen and (max-width:1500px) {
     .titlepage {
         font-size: 2rem;
