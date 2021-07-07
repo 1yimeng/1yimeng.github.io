@@ -24,14 +24,14 @@ section {
 }
 
 .project {
-    background-color: #6d995b;
+    background-color: #7ea071;
 }
 
 .contact {
     height: 35vh;
     top: 800px;
     color: black;
-    background-color: #bce686;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items:center;
@@ -246,7 +246,7 @@ i:not(#folder):hover {
     left: 40% !important;
 }
 
-#link:hover {
+#link:hover, #github:hover {
     color: #318311 !important;
 }
 
