@@ -213,7 +213,7 @@ i:not(#folder):hover {
     transition: transform 0.5s;
 }
 
-.card:hover{
+.card:hover {
     transform: translateY(-10px);
 }
 
