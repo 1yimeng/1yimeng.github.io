@@ -23,6 +23,10 @@ section {
     height: 89vh;
 }
 
+.self-intro {
+    display: none;
+}
+
 .project {
     background-color: #7ea071;
 }
@@ -180,14 +184,16 @@ i:not(#folder):hover {
 
 .copyright, .quote {
     font-family: 'Noto Sans', sans-serif;
-    width: auto;
+    width: 0 auto;
     color: #613b2c;
+    margin: auto;
+    text-align: center;
 }
 
-.copyright {
+/* .copyright {
     position: relative;
     top: 30px;
-}
+} */
 
 .col {
     display: grid;
@@ -279,7 +285,7 @@ i:not(#folder):hover {
     }
 }
 
-@media screen and (max-width: 920px){
+@media screen and (max-width: 950px){
     .line {
         width: 30px;
         height: 3px;
@@ -306,12 +312,13 @@ i:not(#folder):hover {
         height: 95vh;
         width: 100%;
         flex-direction: column;
-        clip-path: circle(100px at 90% -10%);
+        clip-path: circle(120px at 90% -10%);
         -webkit-clip-path: circle(100px at 90% -20%);
-        transition: all 1s ease-in;
+        transition: all 0.7s ease-in;
         pointer-events: none;
         z-index:1;
     }
+
     .nav-links.open{
         clip-path: circle(1200px at 90% -10%);
         -webkit-cli-path: circle(1200px at 90% -10%);
@@ -328,6 +335,21 @@ i:not(#folder):hover {
 
     .student {
         font-size: 120%;
+    }
+
+    .self-intro {
+        background-color: #EDC7B7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .selfp {
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 2rem;
+        margin: auto;
+        text-align: center;
+        color: #250c02; 
     }
 
 }

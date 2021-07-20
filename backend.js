@@ -1,6 +1,5 @@
 //selectors
 const searchInput = document.querySelector(".search-input");
-const searchButton = document.querySelector(".search-button");
 const hamburger = document.querySelector(".hamburger");
 const navLinks = document.querySelector(".nav-links");
 const links = document.querySelectorAll(".nav-links li");
@@ -9,6 +8,11 @@ const links = document.querySelectorAll(".nav-links li");
 hamburger.addEventListener('click', () => {
     navLinks.classList.toggle("open");
 })
-searchButton.addEventListener('click',findjournal);
+
+links.forEach(link => {
+    link.addEventListener('click', () => {
+        navLinks.classList.remove("open")
+    })
+})
 
 //Functions
