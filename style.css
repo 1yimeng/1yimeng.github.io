@@ -314,7 +314,7 @@ i:not(#folder):hover {
         flex-direction: column;
         clip-path: circle(120px at 90% -10%);
         -webkit-clip-path: circle(100px at 90% -20%);
-        transition: all 0.7s ease-in;
+        transition: all 0.9s ease-in;
         pointer-events: none;
         z-index:1;
     }
@@ -346,7 +346,7 @@ i:not(#folder):hover {
 
     .selfp {
         font-family: 'Noto Sans', sans-serif;
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin: auto;
         text-align: center;
         color: #250c02; 
