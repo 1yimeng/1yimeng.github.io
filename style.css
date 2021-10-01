@@ -381,6 +381,15 @@ i:not(#folder):hover {
         color: #250c02; 
     }
 
+    .project {
+        height:267vh;
+    }
+
+    .col {
+        grid-template-columns: 300px;
+        grid-template-rows: 300px 300px;
+        height:267vh;
+    }
 }
 
 @media screen and (max-width:450px) {
@@ -397,4 +406,6 @@ i:not(#folder):hover {
         width: 75%;
         height: 50vh;
     }
+
+
 }
