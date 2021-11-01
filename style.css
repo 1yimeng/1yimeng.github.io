@@ -205,8 +205,8 @@ i:not(#folder):hover {
 }
 
 .card {
-    width: 21vw;
-    height: 40vh;
+    width: 300px;
+    height: 320px;
     display: inline-block;
     border-radius: 3px;
     padding: 15px 25px;
@@ -293,8 +293,8 @@ i:not(#folder):hover {
     }
 
     .card {
-        width: 21vw;
-        height: 40vh;
+        width: 300px;
+        height: 260px;
     }
 
     .col {
