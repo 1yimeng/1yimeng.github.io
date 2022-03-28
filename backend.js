@@ -15,4 +15,5 @@ links.forEach(link => {
     })
 })
 
-//Functions
+var year = new Date().getFullYear();
+document.getElementById("time").textContent = '@ ' + year + ' By Yi Meng Wang';
