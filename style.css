@@ -86,7 +86,7 @@ body {
     position: relative;
 }
 
-nav{
+nav {
     height: 11vh;
     position: sticky;
     top: 0;
@@ -382,13 +382,13 @@ i:not(#folder):hover {
     }
 
     .project {
-        height:267vh;
+        height:220vh;
     }
 
     .col {
         grid-template-columns: 300px;
-        grid-template-rows: 300px 300px;
-        height:267vh;
+        grid-template-rows: auto;
+        height:220vh;
     }
 }
 
